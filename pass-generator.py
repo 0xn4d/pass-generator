@@ -8,6 +8,6 @@ chars = string.ascii_letters + string.digits + '!@#$%&*()-=+;:/?'
 
 rnd = random.SystemRandom()
 
-print('-' * 35)
+print('=' * 35)
 print(''.join(rnd.choice(chars) for i in range(size)))
-print('-' * 35)
+print('=' * 35)
